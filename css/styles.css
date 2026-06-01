@@ -27,10 +27,12 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 84px; /* keep targets clear of the sticky nav */
+  overscroll-behavior: none; /* stop the rubber-band bounce into blank space */
 }
 
 body {
   margin: 0;
+  overflow-x: hidden;        /* no sideways scroll / blank space at any width */
   font-family: "Nunito", "Segoe UI", system-ui, -apple-system, sans-serif;
   color: var(--text);
   background: var(--bg);
