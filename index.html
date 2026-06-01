@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paws The Time 🐾 — The Wildest Animal Podcast for Kids</title>
+  <meta name="description" content="Paws The Time is a fun, energetic animal podcast for kids aged 6–12, hosted by Elizabeth Murphy. Animals aren't boring… they're AWESOME!">
+
+  <!-- Social preview -->
+  <meta property="og:title" content="Paws The Time 🐾">
+  <meta property="og:description" content="The wildest animal podcast for kids on the planet!">
+  <meta property="og:image" content="assets/paws-the-time-logo.png">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" type="image/png" href="assets/paws-the-time-logo.png">
+
+  <!-- Fonts: Fredoka (headings) + Nunito (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ============ 1. NAVIGATION ============ -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#home" aria-label="Paws The Time home">
+        <img src="assets/paws-the-time-logo.png" alt="Paws The Time logo">
+        <span class="logo-text">Paws The Time</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">☰</button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#episodes">Episodes</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============ 2. HERO ============ -->
+  <header class="hero" id="home">
+    <!-- Floating paw prints -->
+    <span class="paw" aria-hidden="true">🐾</span>
+    <span class="paw" aria-hidden="true">🐾</span>
+    <span class="paw" aria-hidden="true">🐾</span>
+    <span class="paw" aria-hidden="true">🐾</span>
+    <span class="paw" aria-hidden="true">🐾</span>
+    <span class="paw" aria-hidden="true">🐾</span>
+
+    <div class="hero-content">
+      <h1>Paws The Time 🐾</h1>
+      <p class="subhead">The wildest animal podcast for kids on the planet!</p>
+      <div><span class="pill">Animals aren't boring… they're AWESOME!</span></div>
+      <a class="btn btn-primary" href="#episodes">▶️ Listen Now</a>
+    </div>
+  </header>
+
+  <!-- ============ 3. MEET THE HOST ============ -->
+  <section class="host" id="host">
+    <div class="container host-inner">
+      <img class="host-avatar" src="assets/host-avatar.png" alt="Cartoon illustration of host Elizabeth Murphy">
+      <div class="host-text">
+        <h2>Meet Your Host 🎤</h2>
+        <span class="host-name">Elizabeth Murphy</span>
+        <p>Hi, I'm Elizabeth! I LOVE animals so much that I started my very own podcast to share the coolest, weirdest, and most jaw-dropping animal facts with you. So grab your explorer hat and let's go on a wild adventure together — because animals aren't boring… they're AWESOME!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. EPISODES ============ -->
+  <section class="section episodes" id="episodes">
+    <div class="container">
+      <h2 class="section-title">All Episodes 🎙️</h2>
+      <div class="ep-grid" id="ep-grid">
+        <!-- Episode cards are rendered by js/main.js -->
+        <noscript>
+          <p style="text-align:center">Please turn on JavaScript to listen to the episodes,
+          or browse the audio files directly in the <code>/audio</code> folder.</p>
+        </noscript>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 5. ABOUT ============ -->
+  <section class="section about" id="about">
+    <div class="container">
+      <h2 class="section-title">What is Paws The Time? 🐾</h2>
+      <p class="lead">Paws The Time is the wildest animal podcast made just for kids! In every episode I pick one amazing animal and dig up the most incredible facts about it — how fast it runs, what it eats, where it lives, and the super-secret tricks that make it special.</p>
+      <p>From roaring tigers to sneaky octopuses, every show is packed with adventure, giggles, and "WHOA, I didn't know that!" moments. You can listen in the car, while you're munching breakfast, or all snuggled up before bed.</p>
+      <p>New animals, new adventures, and tons of fun — all you have to do is press play and let your imagination run wild!</p>
+
+      <h3>Why animals are awesome 🌍</h3>
+      <p>Animals can do things humans only dream about. They fly across whole oceans, see in the dark, breathe underwater, and run faster than cars! Every single one has its own superpower, and learning about them helps us take better care of our amazing planet. That's why I always say — animals aren't boring… they're AWESOME!</p>
+    </div>
+  </section>
+
+  <!-- ============ 6. FOOTER ============ -->
+  <footer class="footer" id="contact">
+    <img src="assets/paws-the-time-logo.png" alt="Paws The Time logo">
+    <div><span class="pill">Animals aren't boring… they're AWESOME!</span></div>
+    <p class="made">Made with 🐾 by Elizabeth Murphy</p>
+
+    <p class="copyright">© <span id="year">2026</span> Paws The Time · Made for curious kids everywhere.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

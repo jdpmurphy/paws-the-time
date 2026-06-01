@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Original raw recordings — the site reads from /audio instead
+episodes/
+
+# Full-resolution source images — the site uses the downscaled copies in /assets
+assets/originals/
