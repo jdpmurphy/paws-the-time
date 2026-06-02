@@ -7,3 +7,9 @@ episodes/
 
 # Full-resolution source images — the site uses the downscaled copies in /assets
 assets/originals/
+
+# Internal working note — keep out of the public repo
+SESSION-HANDOFF.md
+
+# Stray download archives
+*.zip

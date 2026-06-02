@@ -323,6 +323,26 @@ a { color: var(--orange); }
 }
 .ep-card--soon { opacity: 0.96; }
 
+/* Placeholder shown when a thumbnail file isn't in place yet */
+.ep-thumb-wrap.thumb-missing {
+  background: linear-gradient(135deg, var(--sky) 0%, var(--sky-deep) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ep-thumb-wrap.thumb-missing::after {
+  content: "🎨 Thumbnail coming soon";
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding: 0 16px;
+}
+
+/* (The Special card has no overlay badge — its artwork already says "Special".) */
+
 .ep-badge {
   position: absolute;
   top: 12px;

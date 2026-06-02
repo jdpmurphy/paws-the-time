@@ -46,27 +46,40 @@ liz-podcast/
 
 ## The episodes
 
-The site shows **12 episode slots**. Episode 10 hasn't been recorded yet, so it
-shows a friendly "Coming Soon!" card. The numbers match the artwork on each
-thumbnail.
+The site shows **24 numbered episodes + 1 Special**. Episode numbers match the
+artwork baked into each thumbnail.
 
-| #  | Animal      | Audio file            |
-|----|-------------|-----------------------|
-| 1  | Tiger       | `ep01-tiger.m4a`      |
-| 2  | Eagle       | `ep02-eagle.m4a`      |
-| 3  | Fox         | `ep03-fox.m4a`        |
-| 4  | Polar Bear  | `ep04-polar-bear.m4a` |
-| 5  | Owl         | `ep05-owl.m4a`        |
-| 6  | Cheetah     | `ep06-cheetah.m4a` *(Parts 1 & 2 joined into one file)* |
-| 7  | Wolf        | `ep07-wolf.m4a`       |
-| 8  | Lizard      | `ep08-lizard.m4a`     |
-| 9  | Dolphin     | `ep09-dolphin.m4a`    |
-| 10 | *Coming soon* | — (not recorded yet) |
-| 11 | Shark       | `ep11-shark.m4a`      |
-| 12 | Octopus     | `ep12-octopus.m4a`    |
+| #  | Animal           | Audio file                  |
+|----|------------------|-----------------------------|
+| 1  | Tiger            | `ep01-tiger.m4a`            |
+| 2  | Eagle            | `ep02-eagle.m4a`            |
+| 3  | Fox              | `ep03-fox.m4a`              |
+| 4  | Polar Bear       | `ep04-polar-bear.m4a`       |
+| 5  | Owl              | `ep05-owl.m4a`              |
+| 6  | Cheetah          | `ep06-cheetah.m4a` *(Parts 1 & 2 joined into one file)* |
+| 7  | Wolf             | `ep07-wolf.m4a`             |
+| 8  | Lizard           | `ep08-lizard.m4a`           |
+| 9  | Dolphin          | `ep09-dolphin.m4a`          |
+| 10 | Shark            | `ep10-shark.m4a`            |
+| 11 | Octopus          | `ep11-octopus.m4a`          |
+| 12 | Penguin          | `ep12-penguin.m4a`          |
+| 13 | Axolotl          | `ep13-axolotl.m4a`          |
+| 14 | Giant Squid      | `ep14-giant-squid.m4a`      |
+| 15 | Hummingbird      | `ep15-hummingbird.m4a`      |
+| 16 | Elephant         | `ep16-elephant.m4a`         |
+| 17 | Gorilla          | `ep17-gorilla.m4a`          |
+| 18 | Manta Ray        | `ep18-manta-ray.m4a`        |
+| 19 | Snow Leopard     | `ep19-snow-leopard.m4a`     |
+| 20 | Platypus         | `ep20-platypus.m4a`         |
+| 21 | Komodo Dragon    | `ep21-komodo-dragon.m4a`    |
+| 22 | Narwhal          | `ep22-narwhal.m4a`          |
+| 23 | Mantis Shrimp    | `ep23-mantis-shrimp.m4a`    |
+| 24 | Sloth            | `ep24-sloth.m4a`            |
+| —  | Special: Famous Pets | `ep-special-famous-pets.m4a` |
 
-When Episode 10 is recorded, add the audio + thumbnail and flip its entry in
-`js/main.js` from a "coming soon" card to a normal one (see below).
+The Special uses a green "Special" badge instead of an episode number. If a
+thumbnail file is missing, its card shows a "Thumbnail coming soon" placeholder
+(see the `thumb`/`onerror` handling in `js/main.js`) instead of a broken image.
 
 ---
 
